@@ -43,7 +43,7 @@ def newList(datastructure='SINGLE_LINKED',
             filename=None,
             delimiter=","):
     """Crea una lista vacia
-
+ 
     Args:
         datastructure:  Tipo de estructura de datos a utilizar para implementar
         la lista. Los tipos posibles pueden ser: ARRAY_LIST y SINGLE_LINKED.
@@ -68,6 +68,7 @@ def newList(datastructure='SINGLE_LINKED',
     Raises:
         Exception
     """
+    
     try:
         lst = lt.newList(datastructure, cmpfunction, key, filename, delimiter)
         return lst
